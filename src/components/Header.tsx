@@ -66,14 +66,15 @@ export default function Header() {
                 </button>
               ))}
               <div className="flex items-center space-x-4">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+                <a href="https://github.com/Cudiyildiz" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                   <Github className="h-5 w-5" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+                <a href="https://www.linkedin.com/in/cudi-y%C4%B1ld%C4%B1z-0978b5255/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                   <Linkedin className="h-5 w-5" />
                 </a>
-                <a href="mailto:contact@example.com" className="text-gray-600 hover:text-gray-900">
+                <a href="mailto:cudi36y@gmail.com" className="text-gray-600 hover:text-gray-900">
                   <Mail className="h-5 w-5" />
+
                 </a>
               </div>
             </nav>

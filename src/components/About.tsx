@@ -1,9 +1,11 @@
-import { Download, Code, Database, PenTool } from 'lucide-react';
+import { Download, Code, Database, PenTool} from 'lucide-react';
 
 const skills = [
   { name: 'Flutter', level: 85 },
   { name: 'Firebase', level: 80 },
-  { name: 'Python', level: 75 },
+  { name: 'SQL', level: 90 },
+  { name: 'Html', level: 95 },
+  { name: 'Css', level: 90 },
   { name: 'UI/UX Design', level: 70 },
 ];
 
@@ -15,9 +17,9 @@ export default function About() {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-900">Hakkımda</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-            Merhaba, ben mobil geliştirmeyle yakından ilgilenen tutkulu bir Junior Flutter Geliştiricisi olan Cudi Yıldız
-              ve bulut teknolojileri. Flutter, Firebase ve Python uzmanlığımla kusursuz mobil uygulamalar yaratıyorum
-              Kullanıcıları memnun eden ve gerçek dünyadaki sorunları çözen deneyimler.
+            Merhaba ismim Cudi Yıldız, mobil geliştirmeye tutkuyla bağlı bir Junior Flutter Geliştiricisiyim. Firebase ve API konularında bilgi sahibiyim 
+            ve her zaman yeni şeyler öğrenmeye açık biriyim. Kendimi sürekli geliştiren, kullanıcı dostu mobil uygulamalar yapmaya 
+            odaklanan bir Flutter geliştiricisiyim.
             </p>
             <div className="flex space-x-4">
               <button 
@@ -41,7 +43,7 @@ export default function About() {
               </div>
               <div className="p-6 bg-white rounded-xl shadow-sm text-center">
                 <PenTool className="h-8 w-8 mx-auto text-blue-600 mb-2" />
-                <h3 className="font-semibold">Python</h3>
+                <h3 className="font-semibold">Canva</h3>
               </div>
             </div>
 

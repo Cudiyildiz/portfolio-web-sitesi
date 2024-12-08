@@ -50,7 +50,7 @@ Bir sorunuz mu var veya birlikte çalışmak mı istiyorsunuz? Bana ulaşmaktan 
                 linkedin.com/in/cudiyildiz
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:cudi36y@gmail.com"
                 className="flex items-center text-gray-600 hover:text-gray-900 transition-colors"
               >
                 <Mail className="h-6 w-6 mr-3" />

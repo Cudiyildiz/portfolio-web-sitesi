@@ -16,7 +16,7 @@ export default function Blog() {
   const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
 
   // Change page
-  const handlePageChange = (pageNumber) => {
+  const handlePageChange = (pageNumber: React.SetStateAction<number>) => {
     setCurrentPage(pageNumber);
     // Scroll to top of the blog section
     const blogSection = document.querySelector('#blog');
